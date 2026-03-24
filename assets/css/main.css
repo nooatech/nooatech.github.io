@@ -406,9 +406,10 @@ hr {
   z-index: 999999;
   top: 0px !important;
   min-height: 58px;
-  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #f0f0f0;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
@@ -440,7 +441,9 @@ hr {
 }
 
 .indigo {
-  background: transparent;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .menu-bg {
@@ -458,12 +461,11 @@ hr {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #585b60;
-  font-weight: 400;
+  font-weight: 500;
   padding: 8px 17px;
   margin-top: 15px;
   margin-bottom: 15px;
   line-height: 40px;
-  text-transform: uppercase;
   cursor: pointer;
   background: transparent;
   -webkit-transition: all 0.3s ease-in-out;
@@ -476,6 +478,19 @@ hr {
 .navbar-expand-lg .navbar-nav li a:focus {
   color: #137ED9;
   outline: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #137ED9 !important;
+  background-color: rgba(19, 126, 217, 0.05);
+  border-radius: 4px;
+}
+
+.navbar-expand-lg .navbar-nav li.active a.nav-link {
+  color: #137ED9 !important;
+  font-weight: 600;
+  background-color: rgba(19, 126, 217, 0.1);
+  border-radius: 4px;
 }
 
 .navbar-expand-lg .navbar-nav .active > .nav-link,
