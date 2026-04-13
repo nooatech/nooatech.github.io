@@ -147,4 +147,46 @@
   .contact-form-area h2 {
     font-size: 14px;
   }
+  /* Feature section mobile responsive */
+  .feature-section {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    box-sizing: border-box;
+  }
+  .feature-section .section-header {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+  .feature-section .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .feature-section .text-wrapper {
+    padding: 30px 15px;
+  }
+  .feature-section .feature-thumb {
+    margin-right: 0;
+  }
+  .feature-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* 2x2 Grid layout for features on mobile */
+  .feature-section .row .col-md-6,
+  .feature-section .row .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .feature-section .features-box {
+    padding: 10px 5px;
+    margin-bottom: 10px;
+  }
+  .feature-section .features-content h4 {
+    font-size: 13px;
+  }
+  .feature-section .features-icon i {
+    font-size: 28px;
+  }
 }
