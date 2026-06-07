@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="canonical" href="https://nooa.tech/">
+  <meta name="theme-color" content="#137ED9">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta name="Keywords" content="NoOA, NoOA Tech, NoOA Git, 代码管理, NoOA Tex, LaTeX, 论文编写, NoOA Wiki, 知识管理, NoOA Cloud, 云盘, NoOA Q&A, 问答平台, NoOA Photo, 图床, NoOA Docs, 文档, NoOA Survey, 问卷, NoOA Grist, 多维表格, NoOA Gist, 代码片段, 团队协作, 在线办公, 办公平台">
   <meta name="Description" content="NoOA Tech（Not just an OA）提供一站式在线办公平台服务，包括：代码管理(Git)、论文编写(LaTeX)、知识库(Wiki)、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等。免费、开源、适合个人和团队使用。">
   <meta name="author" content="NoOA Tech">
@@ -12,18 +17,77 @@
   
   <!-- Open Graph / Social Media -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="NoOA Tech - 一站式在线办公平台">
+  <meta property="og:title" content="NoOA Tech - 一站式在线办公平台 | Git代码管理 LaTeX论文 Wiki知识库 云盘">
   <meta property="og:description" content="NoOA Tech提供代码管理、论文编写、知识库、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等一站式在线办公平台服务。">
   <meta property="og:url" content="https://nooa.tech">
   <meta property="og:site_name" content="NoOA Tech">
-  <meta property="og:image" content="assets/img/logo.png">
+  <meta property="og:image" content="https://nooa.tech/assets/img/logo.png">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="NoOA Tech - 一站式在线办公平台">
+  <meta name="twitter:title" content="NoOA Tech - 一站式在线办公平台 | Git代码管理 LaTeX论文 Wiki知识库 云盘">
   <meta name="twitter:description" content="NoOA Tech提供代码管理、论文编写、知识库、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等一站式在线办公平台服务。">
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NoOA Tech",
+    "url": "https://nooa.tech",
+    "logo": "https://nooa.tech/assets/img/logo.png",
+    "sameAs": [
+      "https://github.com/nooatech"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "admin@nooa.tech",
+      "contactType": "customer support"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "NoOA Tech",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "CNY"
+    },
+    "description": "NoOA Tech 是一站式在线办公平台，提供代码管理(Git)、论文编写(LaTeX)、知识库(Wiki)、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等服务，全部免费使用。",
+    "featureList": [
+      "NoOA Git - 代码管理与统一鉴权",
+      "NoOA Tex - 在线LaTeX论文编写",
+      "NoOA Wiki - 知识管理与文档协作",
+      "NoOA Cloud - 安全云盘与文件分享",
+      "NoOA Q&A - 问答社区",
+      "NoOA Photo - 图床服务",
+      "NoOA Docs - 在线文档编写",
+      "NoOA Survey - 问卷系统",
+      "NoOA Grist - 多维表格",
+      "NoOA Gist - 代码片段管理"
+    ],
+    "url": "https://nooa.tech"
+  }
+  </script>
+
+  <!-- Structured Data: WebSite (for sitelinks search box) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "NoOA Tech",
+    "url": "https://nooa.tech"
+  }
+  </script>
   
-  <title>NoOA Tech - 一站式在线办公平台</title>
+  <title>NoOA Tech - 一站式在线办公平台 | Git代码管理 LaTeX论文 Wiki知识库 云盘</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -45,7 +109,6 @@
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
   <link href="assets/img/logo.png" rel="shortcut icon">
-  </link>
 
 </head>
 
@@ -65,7 +128,7 @@
             <span class="icon-menu"></span>
             <span class="icon-menu"></span>
           </button>
-          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""
+          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt="NoOA Tech Logo"
               style="height: 40px; width: 40px;"></a>
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
@@ -162,14 +225,14 @@
         <div class="row">
           <div class="col-md-12 col-sm-12">
             <div class="contents text-center">
-              <h2 class="head-title wow fadeInUp">代码管理，文档、论文编写，图床，ToDo，问答，云盘......</h2>
+              <h1 class="head-title wow fadeInUp">代码管理，文档、论文编写，图床，ToDo，问答，云盘......</h1>
               <p class="hero-subtitle wow fadeInUp" data-wow-delay="0.15s">Not just an OA suite — 为个人与团队打造的一站式在线办公平台</p>
               <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
                 <a href="https://qa.nooa.tech" class="btn btn-common">问题反馈/咨询</a>
               </div>
             </div>
             <div class="img-thumb text-center wow fadeInUp" data-wow-delay="0.6s">
-              <img class="img-fluid" src="assets/img/home.png" alt="">
+              <img class="img-fluid" src="assets/img/home.png" alt="NoOA Tech 一站式在线办公平台首页预览">
             </div>
           </div>
         </div>
@@ -194,7 +257,7 @@
               <i class="lni-code"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">代码管理</a></h3>
+              <h3><a href="#" title="NoOA Git 代码管理服务">代码管理</a></h3>
               <p>基于Gitea二次开发的NoOA Git平台，实现代码管理、代码复刻等服务，同时作为所有其他服务的账户鉴权中心。</p>
             </div>
           </div>
@@ -206,7 +269,7 @@
               <i class="lni-files"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">论文编写</a></h3>
+              <h3><a href="#" title="NoOA Tex 论文编写服务">论文编写</a></h3>
               <p>基于ShareLatex开发的类OverLeaf在线LaTeX编写平台，支持不限量多人协作，多人分享编写等服务。</p>
             </div>
           </div>
@@ -218,7 +281,7 @@
               <i class="lni-database"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">知识储备</a></h3>
+              <h3><a href="#" title="NoOA Wiki 知识储备服务">知识储备</a></h3>
               <p>基于Confluence的NoOA Wiki平台提供文件管理、笔记管理、空间管理等服务，是整个系统的知识核心。</p>
             </div>
           </div>
@@ -230,7 +293,7 @@
               <i class="lni-cloud"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">云盘</a></h3>
+              <h3><a href="#" title="NoOA Cloud 云盘服务">云盘</a></h3>
               <p>为了方便文件传输与保存，NoOA Cloud提供云盘服务，文件不怕丢失、不怕和谐，同时提供多种类型的分享（限时分享、限次分享等）服务。</p>
             </div>
           </div>
@@ -242,7 +305,7 @@
               <i class="lni-question-circle"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">问答平台</a></h3>
+              <h3><a href="#" title="NoOA Q&A 问答平台服务">问答平台</a></h3>
               <p>不管是技术问题还是其他问题，都可以在NoOA Q&A寻求答案，该平台可以自由提问与回答。</p>
             </div>
           </div>
@@ -254,7 +317,7 @@
               <i class="lni-image"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">图床</a></h3>
+              <h3><a href="#" title="NoOA Photo 图床服务">图床</a></h3>
               <p>NoOA Photo提供在线图片部署服务，解决在其他在线平台上创作时的图片上传问题。</p>
             </div>
           </div>
@@ -293,7 +356,7 @@
               <i class="lni-add-files"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">文档</a></h3>
+              <h3><a href="#" title="NoOA Docs 文档编写服务">文档</a></h3>
               <p>基于Outline的NoOA Docs文档编写系统，拥有和飞书文档一样美观的界面以及异步评论功能，旨在提供私人以及共享文档的空间。</p>
             </div>
           </div>
@@ -306,7 +369,7 @@
               <i class="lni-stats-up"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">问卷</a></h3>
+              <h3><a href="#" title="NoOA Survey 问卷系统服务">问卷</a></h3>
               <p>基于Formbricks的NoOA Survey问卷系统，以一种出色的逐题展开的形式，带来不一样的问卷体验。</p>
             </div>
           </div>
@@ -319,7 +382,7 @@
               <i class="lni-layout"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">多维表格</a></h3>
+              <h3><a href="#" title="NoOA Grist 多维表格服务">多维表格</a></h3>
               <p> NoOA Grist多维表格系统，不仅拥有普通 Excel表格应有的功能，而且更强调专业性和协同性。</p>
             </div>
           </div>
@@ -332,7 +395,7 @@
               <i class="lni-code"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">代码片段</a></h3>
+              <h3><a href="#" title="NoOA Gist 代码片段管理服务">代码片段</a></h3>
               <p> NoOA Gist代码片段管理系统，简洁的、GitHub Gist的开源替代。</p>
             </div>
           </div>
@@ -440,7 +503,7 @@
 
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/docs.png" alt="" style="width:100%">
+            <img src="assets/img/slide/docs.png" alt="NoOA Docs 在线文档编写平台截图" style="width:100%">
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -588,7 +651,7 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/git.png" alt="" style="width: 100%">
+            <img src="assets/img/slide/git.png" alt="NoOA Git 代码管理平台截图" style="width: 100%">>
           </div>
         </div>
       </div>
@@ -599,7 +662,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/tex.png" alt="" style="width:100%">
+            <img src="assets/img/slide/tex.png" alt="NoOA Tex 在线LaTeX论文编写平台截图" style="width:100%">
           </div>
         </div>
 
@@ -749,7 +812,7 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/wiki.png" alt="" style="width:100%">
+            <img src="assets/img/slide/wiki.png" alt="NoOA Wiki 知识管理平台截图" style="width:100%">
           </div>
         </div>
       </div>
@@ -760,7 +823,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/cloud.png" alt="" style="width:100%">
+            <img src="assets/img/slide/cloud.png" alt="NoOA Cloud 云盘平台截图" style="width:100%">
           </div>
         </div>
 
@@ -910,7 +973,7 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/qa.png" alt="" style="width:100%">
+            <img src="assets/img/slide/qa.png" alt="NoOA Q&A 问答社区平台截图" style="width:100%">
           </div>
         </div>
       </div>
@@ -923,7 +986,7 @@
 
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/photo.png" alt="" style="width:100%">
+            <img src="assets/img/slide/photo.png" alt="NoOA Photo 图床平台截图" style="width:100%">
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -1149,7 +1212,7 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/grist.png" alt="" style="width:100%">
+            <img src="assets/img/slide/grist.png" alt="NoOA Grist 多维表格平台截图" style="width:100%">
           </div>
         </div>
       </div>
@@ -1161,7 +1224,7 @@
     
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/survey.png" alt="" style="width:100%">
+            <img src="assets/img/slide/survey.png" alt="NoOA Survey 问卷系统平台截图" style="width:100%">
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -1308,7 +1371,7 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
           <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/gist.png" alt="" style="width:100%">
+            <img src="assets/img/slide/gist.png" alt="NoOA Gist 代码片段管理平台截图" style="width:100%">
           </div>
         </div>
       </div>
@@ -1775,7 +1838,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
           <div class="footer-logo mb-3">
-            <img src="assets/img/logo.png" style="height: 100px;" alt="">
+            <img src="assets/img/logo.png" style="height: 100px;" alt="NoOA Tech Logo">
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
