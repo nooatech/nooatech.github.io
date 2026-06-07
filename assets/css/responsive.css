@@ -162,10 +162,11 @@
     padding-right: 0;
   }
   .feature-section .text-wrapper {
-    padding: 30px 15px;
+    padding: 20px 15px;
   }
   .feature-section .feature-thumb {
     margin-right: 0;
+    padding: 10px;
   }
   .feature-section img {
     max-width: 100%;
@@ -188,5 +189,72 @@
   }
   .feature-section .features-icon i {
     font-size: 28px;
+  }
+
+  /* Hero subtitle mobile */
+  .hero-subtitle {
+    font-size: 14px !important;
+    padding: 0 10px;
+  }
+
+  /* Services cards mobile */
+  .services-item {
+    padding: 20px 16px;
+    margin-bottom: 12px;
+  }
+
+  .services-item .icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .services-item .icon i {
+    font-size: 22px;
+  }
+
+  /* Back to top mobile */
+  a.back-to-top i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  /* Feature title mobile */
+  .title-hl {
+    font-size: 24px;
+  }
+
+  .title-hl::after {
+    width: 30px;
+    height: 2px;
+  }
+
+  /* Feature block: stack vertically on mobile */
+  .feature-section .container-fluid > .row {
+    min-height: auto;
+    flex-direction: column;
+  }
+
+  .feature-section .container-fluid > .row > .col-lg-6 {
+    display: block;
+  }
+
+  .feature-section .container-fluid {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .feature-section img {
+    max-height: 240px;
+  }
+
+  /* Alternating backgrounds on mobile */
+  .feature-section .container-fluid:nth-child(odd) {
+    background: #ffffff;
+  }
+
+  .feature-section .container-fluid:nth-child(even) {
+    background: #f8f9fb;
   }
 }
