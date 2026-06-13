@@ -2,31 +2,65 @@
 <html lang="zh-CN">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="canonical" href="https://nooa.tech/">
-  <meta name="theme-color" content="#137ED9">
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <meta name="Keywords" content="NoOA, NoOA Tech, NoOA Git, 代码管理, NoOA Tex, LaTeX, 论文编写, NoOA Wiki, 知识管理, NoOA Cloud, 云盘, NoOA Q&A, 问答平台, NoOA Photo, 图床, NoOA Docs, 文档, NoOA Survey, 问卷, NoOA Grist, 多维表格, NoOA Gist, 代码片段, 团队协作, 在线办公, 办公平台">
-  <meta name="Description" content="NoOA Tech（Not just an OA）提供一站式在线办公平台服务，包括：代码管理(Git)、论文编写(LaTeX)、知识库(Wiki)、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等。免费、开源、适合个人和团队使用。">
+
+  <!-- Theme / appearance -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#137ED9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0f1c" media="(prefers-color-scheme: dark)">
+
+  <!-- Primary SEO -->
+  <meta name="keywords" content="NoOA, NoOA Tech, NoOA Git, 代码管理, NoOA Tex, LaTeX, 论文编写, NoOA Wiki, 知识管理, NoOA Cloud, 云盘, NoOA Q&A, 问答平台, NoOA Photo, 图床, NoOA Docs, 文档, NoOA Survey, 问卷, NoOA Grist, 多维表格, NoOA Gist, 代码片段, 团队协作, 在线办公, 办公平台, 开源, 免费">
+  <meta name="description" content="NoOA Tech（Not just an OA）提供一站式在线办公平台服务，包括：代码管理(Git)、论文编写(LaTeX)、知识库(Wiki)、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等。免费、开源、适合个人和团队使用。">
+  <meta name="subject" content="一站式在线办公平台">
   <meta name="author" content="NoOA Tech">
-  <meta name="robots" content="index, follow">
-  
+  <meta name="copyright" content="NoOA Tech">
+  <meta name="generator" content="NoOA Tech">
+  <meta name="application-name" content="NoOA Tech">
+  <meta name="apple-mobile-web-app-title" content="NoOA Tech">
+  <meta name="rating" content="general">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Crawler directives -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="bingbot" content="index, follow">
+
+  <!-- PWA / mobile -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-TileColor" content="#137ED9">
+  <meta name="msapplication-TileImage" content="https://nooa.tech/assets/img/logo.png">
+
+  <!-- Language alternates -->
+  <link rel="alternate" hreflang="zh-CN" href="https://nooa.tech/">
+  <link rel="alternate" hreflang="x-default" href="https://nooa.tech/">
+
   <!-- Open Graph / Social Media -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="NoOA Tech - 一站式在线办公平台 | Git代码管理 LaTeX论文 Wiki知识库 云盘">
-  <meta property="og:description" content="NoOA Tech提供代码管理、论文编写、知识库、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等一站式在线办公平台服务。">
+  <meta property="og:title" content="NoOA Tech · 一站式在线办公平台">
+  <meta property="og:description" content="代码管理、论文编写、知识库、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理，免费、开源，为个人与团队打造。">
   <meta property="og:url" content="https://nooa.tech">
   <meta property="og:site_name" content="NoOA Tech">
+  <meta property="og:locale" content="zh_CN">
   <meta property="og:image" content="https://nooa.tech/assets/img/logo.png">
-  
+  <meta property="og:image:secure_url" content="https://nooa.tech/assets/img/logo.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="NoOA Tech Logo">
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="NoOA Tech - 一站式在线办公平台 | Git代码管理 LaTeX论文 Wiki知识库 云盘">
-  <meta name="twitter:description" content="NoOA Tech提供代码管理、论文编写、知识库、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等一站式在线办公平台服务。">
+  <meta name="twitter:title" content="NoOA Tech · 一站式在线办公平台">
+  <meta name="twitter:description" content="代码管理、论文编写、知识库、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理，免费、开源，为个人与团队打造。">
+  <meta name="twitter:url" content="https://nooa.tech">
+  <meta name="twitter:image" content="https://nooa.tech/assets/img/logo.png">
+  <meta name="twitter:image:alt" content="NoOA Tech Logo">
 
   <!-- Structured Data: Organization -->
   <script type="application/ld+json">
@@ -86,1829 +120,568 @@
     "url": "https://nooa.tech"
   }
   </script>
-  
-  <title>NoOA Tech - 一站式在线办公平台 | Git代码管理 LaTeX论文 Wiki知识库 云盘</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-  <!-- Icon -->
-  <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
-  <!-- Slicknav -->
-  <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
-  <!-- Owl carousel -->
-  <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
-  <!-- Slick Slider -->
-  <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
-  <!-- Animate -->
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-  <!-- Main Style -->
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- Responsive Style -->
-  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  <title>NoOA Tech · 一站式在线办公平台</title>
 
-  <link href="assets/img/logo.png" rel="shortcut icon">
+  <link rel="shortcut icon" href="assets/img/logo.png">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="apple-touch-icon" href="assets/img/logo.png">
+  <link rel="manifest" href="/site.webmanifest">
 
+  <style>
+    :root {
+      --brand: #137ED9;
+      --brand-2: #6D5DF6;
+      --grad: linear-gradient(135deg, #137ED9 0%, #6D5DF6 100%);
+      --grad-soft: linear-gradient(135deg, rgba(19,126,217,.12), rgba(109,93,246,.12));
+
+      --bg: #f6f8fc;
+      --bg-elev: #ffffff;
+      --surface: #ffffff;
+      --text: #0f1b2d;
+      --text-soft: #51607a;
+      --text-mute: #8493ab;
+      --border: rgba(15, 27, 45, .08);
+      --shadow: 0 10px 40px -12px rgba(19, 38, 74, .18);
+      --shadow-lg: 0 30px 70px -24px rgba(19, 38, 74, .35);
+      --nav-bg: rgba(255, 255, 255, .72);
+      --chip-bg: rgba(19, 126, 217, .08);
+      --radius: 18px;
+      --maxw: 1180px;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0a0f1c;
+      --bg-elev: #111a2e;
+      --surface: #121c32;
+      --text: #eaf0fb;
+      --text-soft: #aebada;
+      --text-mute: #7587a8;
+      --border: rgba(255, 255, 255, .09);
+      --shadow: 0 10px 40px -12px rgba(0, 0, 0, .55);
+      --shadow-lg: 0 30px 80px -22px rgba(0, 0, 0, .7);
+      --nav-bg: rgba(13, 20, 36, .72);
+      --chip-bg: rgba(109, 93, 246, .16);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      transition: background .4s ease, color .4s ease;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .wrap { width: min(100% - 40px, var(--maxw)); margin-inline: auto; }
+
+    /* ---------- decorative background blobs ---------- */
+    .bg-orbs { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+    .bg-orbs span {
+      position: absolute; border-radius: 50%; filter: blur(90px); opacity: .5;
+    }
+    .bg-orbs span:nth-child(1) { width: 480px; height: 480px; background: #137ED9; top: -160px; left: -120px; }
+    .bg-orbs span:nth-child(2) { width: 420px; height: 420px; background: #6D5DF6; top: 20%; right: -140px; opacity: .4; }
+    .bg-orbs span:nth-child(3) { width: 360px; height: 360px; background: #18b6c9; bottom: -160px; left: 20%; opacity: .32; }
+    [data-theme="dark"] .bg-orbs span { opacity: .28; }
+
+    /* ---------- nav ---------- */
+    header.nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(18px);
+      -webkit-backdrop-filter: saturate(180%) blur(18px);
+      background: var(--nav-bg);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner { display: flex; align-items: center; gap: 18px; height: 72px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 19px; letter-spacing: .2px; }
+    .brand img { width: 36px; height: 36px; border-radius: 9px; }
+    .brand b { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+    .nav-links { display: flex; gap: 6px; margin-left: 18px; }
+    .nav-links a {
+      padding: 8px 14px; border-radius: 999px; font-weight: 600; font-size: 15px;
+      color: var(--text-soft); transition: .2s;
+    }
+    .nav-links a:hover { color: var(--text); background: var(--chip-bg); }
+
+    .nav-actions { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+
+    .icon-btn {
+      width: 42px; height: 42px; display: grid; place-items: center;
+      border-radius: 12px; border: 1px solid var(--border); background: var(--surface);
+      color: var(--text); cursor: pointer; transition: .2s;
+    }
+    .icon-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+    .icon-btn svg { width: 20px; height: 20px; }
+    .theme-toggle .moon { display: none; }
+    [data-theme="dark"] .theme-toggle .sun { display: none; }
+    [data-theme="dark"] .theme-toggle .moon { display: block; }
+
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px; justify-content: center;
+      padding: 11px 22px; border-radius: 999px; font-weight: 700; font-size: 15px;
+      cursor: pointer; border: 1px solid transparent; transition: .25s; white-space: nowrap;
+    }
+    .btn-primary { background: var(--grad); color: #fff; box-shadow: 0 12px 26px -10px rgba(19,126,217,.7); }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 18px 34px -10px rgba(19,126,217,.8); }
+    .btn-ghost { background: var(--surface); color: var(--text); border-color: var(--border); }
+    .btn-ghost:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+
+    .nav-toggle { display: none; }
+
+    /* ---------- hero ---------- */
+    .hero { padding: 84px 0 60px; text-align: center; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px; margin-bottom: 22px;
+      padding: 7px 16px; border-radius: 999px; font-size: 13px; font-weight: 700;
+      background: var(--chip-bg); color: var(--brand); border: 1px solid var(--border);
+    }
+    [data-theme="dark"] .eyebrow { color: #9db8ff; }
+    .eyebrow .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--grad); }
+    .hero h1 {
+      font-size: clamp(30px, 5vw, 54px); line-height: 1.15; font-weight: 850; margin: 0 auto 18px;
+      max-width: 980px; letter-spacing: -.5px;
+    }
+    .hero h1 .hl { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .hero h1 .rotator {
+      position: relative; display: inline-block; font-weight: 900; font-size: 1.12em;
+      line-height: 1; padding: 0 4px 4px; margin: 0 2px;
+      background: var(--rgrad, var(--grad)); -webkit-background-clip: text; background-clip: text; color: transparent;
+      transition: opacity .35s ease, transform .35s ease;
+    }
+    .hero h1 .rotator::after {
+      content: ""; position: absolute; left: 4px; right: 4px; bottom: -2px; height: 4px;
+      border-radius: 4px; background: var(--rgrad, var(--grad)); transition: opacity .35s ease;
+    }
+    .hero h1 .rotator.swap { opacity: 0; transform: translateY(-10px); }
+    .hero h1 .rotator.swap::after { opacity: 0; }
+    .h1-br { display: none; }
+    @media (min-width: 600px) { .h1-br { display: inline; } }
+    .hero p.sub { font-size: clamp(16px, 2.2vw, 20px); color: var(--text-soft); max-width: 720px; margin: 0 auto 30px; }
+    .hero-cta { display: flex; gap: 18px; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 44px; }
+    .hero-cta .btn { padding: 15px 32px; font-size: 16.5px; }
+    .hero-cta .btn svg { transition: transform .25s ease; }
+    .hero-cta .btn-primary:hover svg { transform: translateX(4px); }
+    .hero-cta .btn-ghost:hover svg { transform: translateY(3px); }
+
+    .hero-shot {
+      margin: 56px auto 0; max-width: 980px; border-radius: 22px; overflow: hidden;
+      border: 1px solid var(--border); box-shadow: var(--shadow-lg); position: relative;
+    }
+    .hero-shot::after {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 60%, var(--bg));
+      pointer-events: none; opacity: .0;
+    }
+
+    /* ---------- section header ---------- */
+    .section { padding: 76px 0; }
+    .sec-head { text-align: center; max-width: 680px; margin: 0 auto 50px; }
+    .sec-tag { font-size: 14px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--brand); }
+    [data-theme="dark"] .sec-tag { color: #9db8ff; }
+    .sec-head h2 { font-size: clamp(26px, 4vw, 40px); font-weight: 850; margin: 10px 0 12px; letter-spacing: -.5px; }
+    .sec-head p { color: var(--text-soft); font-size: 17px; margin: 0; }
+
+    /* ---------- services grid ---------- */
+    .services-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;
+    }
+    .card {
+      position: relative; background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 28px; transition: .3s; overflow: hidden;
+    }
+    .card::before {
+      content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px;
+      background: var(--grad); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: .3s;
+    }
+    .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+    .card:hover::before { opacity: 1; }
+    .card .ico {
+      width: 54px; height: 54px; border-radius: 14px; display: grid; place-items: center;
+      background: var(--grad-soft); color: var(--brand); margin-bottom: 18px; transition: .3s;
+    }
+    [data-theme="dark"] .card .ico { color: #9db8ff; }
+    .card:hover .ico { background: var(--grad); color: #fff; transform: rotate(-6deg) scale(1.05); }
+    .card .ico svg { width: 26px; height: 26px; }
+    .card h3 { margin: 0 0 8px; font-size: 19px; font-weight: 800; display: flex; align-items: center; gap: 8px; }
+    .card h3 .arr { opacity: 0; transform: translateX(-6px); transition: .25s; color: var(--brand); }
+    .card:hover h3 .arr { opacity: 1; transform: translateX(0); }
+    .card p { margin: 0; color: var(--text-soft); font-size: 14.5px; }
+
+    /* ---------- features ---------- */
+    .feature-row {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center;
+      padding: 46px 0;
+    }
+    .feature-row + .feature-row { border-top: 1px solid var(--border); }
+    .feature-row.reverse .f-media { order: 2; }
+    .f-media {
+      border-radius: 18px; overflow: hidden; border: 1px solid var(--border);
+      box-shadow: var(--shadow); position: relative; background: var(--bg-elev);
+    }
+    .f-media::after {
+      content: ""; position: absolute; inset: 0; border-radius: inherit;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.04); pointer-events: none;
+    }
+    .f-media img { width: 100%; transition: transform .6s ease; }
+    .f-media:hover img { transform: scale(1.03); }
+
+    .f-name { font-size: clamp(24px, 3vw, 32px); font-weight: 850; margin: 0 0 6px; }
+    .f-name .badge {
+      font-size: 12px; font-weight: 800; vertical-align: middle; margin-left: 10px;
+      padding: 4px 10px; border-radius: 999px; background: var(--chip-bg); color: var(--brand);
+    }
+    [data-theme="dark"] .f-name .badge { color: #9db8ff; }
+    .f-desc { margin: 14px 0 4px; color: var(--text-soft); font-size: 15.5px; line-height: 1.75; }
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0 26px; }
+    .chip {
+      display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border-radius: 12px;
+      background: var(--surface); border: 1px solid var(--border); font-size: 14px; font-weight: 600;
+      color: var(--text-soft); transition: .2s;
+    }
+    .chip:hover { color: var(--text); border-color: var(--brand); transform: translateY(-2px); }
+    .chip .tick { width: 16px; height: 16px; border-radius: 50%; background: var(--grad); display: grid; place-items: center; }
+    .chip .tick svg { width: 10px; height: 10px; color: #fff; }
+
+    /* ---------- footer ---------- */
+    footer {
+      margin-top: 40px; background: var(--bg-elev); border-top: 1px solid var(--border);
+      padding: 64px 0 0;
+    }
+    .foot-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 36px; }
+    .foot-brand img { width: 64px; height: 64px; border-radius: 14px; margin-bottom: 14px; }
+    .foot-brand p { color: var(--text-soft); font-size: 14.5px; max-width: 280px; margin: 0; }
+    footer h4 { font-size: 15px; font-weight: 800; margin: 0 0 16px; letter-spacing: .3px; }
+    footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 11px; }
+    footer ul a { color: var(--text-soft); font-size: 14.5px; transition: .2s; }
+    footer ul a:hover { color: var(--brand); padding-left: 4px; }
+    .social { display: flex; gap: 10px; flex-wrap: wrap; }
+    .social a {
+      width: 42px; height: 42px; border-radius: 12px; display: grid; place-items: center;
+      border: 1px solid var(--border); color: var(--text-soft); background: var(--surface); transition: .25s;
+    }
+    .social a:hover { color: #fff; background: var(--grad); transform: translateY(-3px); border-color: transparent; }
+    .social svg { width: 19px; height: 19px; }
+    .copyright {
+      margin-top: 54px; padding: 22px 0; border-top: 1px solid var(--border);
+      text-align: center; color: var(--text-mute); font-size: 13.5px;
+    }
+
+    /* ---------- back to top ---------- */
+    .to-top {
+      position: fixed; right: 22px; bottom: 22px; z-index: 60;
+      width: 48px; height: 48px; border-radius: 14px; border: none; cursor: pointer;
+      background: var(--grad); color: #fff; display: grid; place-items: center;
+      box-shadow: 0 14px 30px -10px rgba(19,126,217,.7);
+      opacity: 0; visibility: hidden; transform: translateY(14px); transition: .3s;
+    }
+    .to-top.show { opacity: 1; visibility: visible; transform: translateY(0); }
+    .to-top svg { width: 22px; height: 22px; }
+
+    /* ---------- reveal animation ---------- */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+      .hero h1 .rotator { transition: none; }
+      html { scroll-behavior: auto; }
+    }
+
+    /* ---------- responsive ---------- */
+    @media (max-width: 860px) {
+      .nav-links { display: none; }
+      .nav-toggle { display: grid; }
+      .nav-links.open {
+        display: flex; flex-direction: column; position: absolute; left: 0; right: 0; top: 72px;
+        background: var(--nav-bg); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+        padding: 14px 20px; border-bottom: 1px solid var(--border); gap: 4px; margin: 0;
+      }
+      .feature-row { grid-template-columns: 1fr; gap: 28px; }
+      .feature-row.reverse .f-media { order: 0; }
+      .foot-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+      .foot-brand { grid-column: 1 / -1; }
+    }
+    @media (max-width: 520px) {
+      .foot-grid { grid-template-columns: 1fr; }
+      .hero { padding: 56px 0 40px; }
+    }
+  </style>
 </head>
 
 <body>
+  <div class="bg-orbs"><span></span><span></span><span></span></div>
 
-  <!-- Header Area wrapper Starts -->
-  <header id="header-wrap">
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
-            aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            <span class="icon-menu"></span>
-            <span class="icon-menu"></span>
-            <span class="icon-menu"></span>
-          </button>
-          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt="NoOA Tech Logo"
-              style="height: 40px; width: 40px;"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="main-navbar">
-          <ul class="navbar-nav mr-auto w-100 justify-content-left clearfix">
-            <li class="nav-item active">
-              <a class="nav-link" href="#hero-area">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">
-                Services
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#feature">
-                Features
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">
-                About
-              </a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#testimonial">
-                  Testimonial
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pricing">
-                  Pricing
-                </a>
-              </li> -->
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#contact">
-                  Contact
-                </a>
-              </li> -->
-          </ul>
-          <div class="btn-sing float-right">
-            <a class="btn btn-border" href="https://status.nooa.tech">Status</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Mobile Menu Start -->
-      <ul class="mobile-menu navbar-nav">
-        <li>
-          <a class="page-scroll" href="#hero-area">
-            Home
-          </a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#services">
-            Services
-          </a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#feature">
-            Features
-          </a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#footer">
-            About
-          </a>
-        </li>
-        <!-- <li>
-            <a class="page-scroll" href="#testimonial">
-              Testimonial
-            </a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#pricing">
-              Pricing
-            </a>
-          </li> -->
-        <!-- <li>
-            <a class="page-scroll" href="#contact">
-              Contact
-            </a>
-          </li> -->
-      </ul>
-      <!-- Mobile Menu End -->
-
-    </nav>
-    <!-- Navbar End -->
-
-    <!-- Hero Area Start -->
-    <div id="hero-area" class="hero-area-bg">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="contents text-center">
-              <h1 class="head-title wow fadeInUp">代码管理，文档、论文编写，图床，ToDo，问答，云盘......</h1>
-              <p class="hero-subtitle wow fadeInUp" data-wow-delay="0.15s">Not just an OA suite — 为个人与团队打造的一站式在线办公平台</p>
-              <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://qa.nooa.tech" class="btn btn-common">问题反馈/咨询</a>
-              </div>
-            </div>
-            <div class="img-thumb text-center wow fadeInUp" data-wow-delay="0.6s">
-              <img class="img-fluid" src="assets/img/home.png" alt="NoOA Tech 一站式在线办公平台首页预览">
-            </div>
-          </div>
-        </div>
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/img/logo.png" alt="NoOA Tech Logo">
+        <span>NoOA <b>Tech</b></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#feature">Features</a>
+        <a href="#footer">About</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="https://status.nooa.tech">Status</a>
+        <button class="icon-btn theme-toggle" id="themeBtn" aria-label="切换主题">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" id="navToggle" aria-label="菜单">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
       </div>
     </div>
-    <!-- Hero Area End -->
-
   </header>
-  <!-- Header Area wrapper End -->
 
-  <!-- Services Section Start -->
-  <section id="services" class="section-padding">
-    <div class="container">
-      <div class="section-header text-center" style="padding-top: 20px; padding-bottom: 30px;">
-        <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Main Services</h2>
+  <!-- ============ HERO ============ -->
+  <section id="hero" class="hero">
+    <div class="wrap">
+      <span class="eyebrow reveal"><span class="dot"></span> Not just an OA suite</span>
+      <h1 class="reveal">为个人与团队打造的一站式<br class="h1-br">在线<span class="rotator" id="rotator">代码管理</span>平台</h1>
+      <div class="hero-cta reveal">
+        <a href="https://qa.nooa.tech" class="btn btn-primary">问题反馈 / 咨询
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#services" class="btn btn-ghost">查看全部服务
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
       </div>
-      <div class="row">
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-            <div class="icon">
-              <i class="lni-code"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Git 代码管理服务">代码管理</a></h3>
-              <p>基于Gitea二次开发的NoOA Git平台，实现代码管理、代码复刻等服务，同时作为所有其他服务的账户鉴权中心。</p>
-            </div>
-          </div>
-        </div>
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
-            <div class="icon">
-              <i class="lni-files"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Tex 论文编写服务">论文编写</a></h3>
-              <p>基于ShareLatex开发的类OverLeaf在线LaTeX编写平台，支持不限量多人协作，多人分享编写等服务。</p>
-            </div>
-          </div>
-        </div>
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
-            <div class="icon">
-              <i class="lni-database"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Wiki 知识储备服务">知识储备</a></h3>
-              <p>基于Confluence的NoOA Wiki平台提供文件管理、笔记管理、空间管理等服务，是整个系统的知识核心。</p>
-            </div>
-          </div>
-        </div>
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-            <div class="icon">
-              <i class="lni-cloud"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Cloud 云盘服务">云盘</a></h3>
-              <p>为了方便文件传输与保存，NoOA Cloud提供云盘服务，文件不怕丢失、不怕和谐，同时提供多种类型的分享（限时分享、限次分享等）服务。</p>
-            </div>
-          </div>
-        </div>
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
-            <div class="icon">
-              <i class="lni-question-circle"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Q&A 问答平台服务">问答平台</a></h3>
-              <p>不管是技术问题还是其他问题，都可以在NoOA Q&A寻求答案，该平台可以自由提问与回答。</p>
-            </div>
-          </div>
-        </div>
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
-            <div class="icon">
-              <i class="lni-image"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Photo 图床服务">图床</a></h3>
-              <p>NoOA Photo提供在线图片部署服务，解决在其他在线平台上创作时的图片上传问题。</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Services item -->
-        <!-- <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-            <div class="icon">
-              <i class="lni-menu"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#">ToDo List</a></h3>
-              <p>NoOA ToDo提供非专业人士专业的项目管理功能，支持丰富的项目管理特性。</p>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- Services item -->
-        <!-- <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-            <div class="icon">
-              <i class="lni-blackboard"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#">网课</a></h3>
-              <p>基于Moodle的NoOA Learn网课管理系统，旨在提供一个专业课程到自学者传递、交流的桥梁。</p>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-            <div class="icon">
-              <i class="lni-add-files"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Docs 文档编写服务">文档</a></h3>
-              <p>基于Outline的NoOA Docs文档编写系统，拥有和飞书文档一样美观的界面以及异步评论功能，旨在提供私人以及共享文档的空间。</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-            <div class="icon">
-              <i class="lni-stats-up"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Survey 问卷系统服务">问卷</a></h3>
-              <p>基于Formbricks的NoOA Survey问卷系统，以一种出色的逐题展开的形式，带来不一样的问卷体验。</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-            <div class="icon">
-              <i class="lni-layout"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Grist 多维表格服务">多维表格</a></h3>
-              <p> NoOA Grist多维表格系统，不仅拥有普通 Excel表格应有的功能，而且更强调专业性和协同性。</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-            <div class="icon">
-              <i class="lni-code"></i>
-            </div>
-            <div class="services-content">
-              <h3><a href="#" title="NoOA Gist 代码片段管理服务">代码片段</a></h3>
-              <p> NoOA Gist代码片段管理系统，简洁的、GitHub Gist的开源替代。</p>
-            </div>
-          </div>
-        </div>
-
-
+      <div class="hero-shot reveal">
+        <img src="assets/img/home.png" alt="NoOA Tech 一站式在线办公平台首页预览" loading="eager" decoding="async">
       </div>
     </div>
   </section>
-  <!-- Services Section End -->
 
-
-
-
-  <!-- Feature Section Start -->
-  <div id="feature" class="feature-section">
-    <div class="section-header text-center">
-      <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Main Features</h2>
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">Main Services</span>
+        <h2>一站式办公服务矩阵</h2>
+        <p>免费、开源，覆盖代码、文档、协作与存储的完整工作流。</p>
+      </div>
+      <div class="services-grid" id="servicesGrid"></div>
     </div>
+  </section>
 
-    <!-- NoOA todo -->
-    <!-- <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/ser8.png" alt="" style="width:100%">
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Todo</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-files"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        项目管理
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-share"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多人共享
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-image"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        甘特图
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        界面简洁
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://todo.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+  <!-- ============ FEATURES ============ -->
+  <section id="feature" class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">Main Features</span>
+        <h2>深入了解每一项能力</h2>
+        <p>每个子服务均支持统一登录，开箱即用。</p>
       </div>
-    </div> -->
-
-    <!-- NoOA Docs -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/docs.png" alt="NoOA Docs 在线文档编写平台截图" style="width:100%">
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Docs</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-save"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        自由下载
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-share"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多人共享
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-ban"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        自由上传
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        永久免费
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://docs.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <div id="featureList"></div>
     </div>
+  </section>
 
-    <!-- NoOA git -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Git</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-code"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        代码管理
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        开源免费
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-cog"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        操作简单
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-text-align-center"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        统一登录
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://git.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- ============ FOOTER ============ -->
+  <footer id="footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand reveal">
+          <img src="assets/img/logo.png" alt="NoOA Tech Logo">
+          <p>NoOA Tech（Not just an OA）—— 为个人与团队打造的免费、开源一站式在线办公平台。</p>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/git.png" alt="NoOA Git 代码管理平台截图" style="width: 100%">>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- NoOA tex -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/tex.png" alt="NoOA Tex 在线LaTeX论文编写平台截图" style="width:100%">
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Tex</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-files"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        LaTex编写
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-share"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多人共享
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-Infinite"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        不限项目
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        功能简洁
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://tex.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!-- NoOA Wiki -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Wiki</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-database"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        文档管理
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-share"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多人共享
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-Infinite"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        无限空间
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-information"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        功能全面
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://wiki.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/wiki.png" alt="NoOA Wiki 知识管理平台截图" style="width:100%">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- NoOA cloud -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/cloud.png" alt="NoOA Cloud 云盘平台截图" style="width:100%">
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Cloud</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-shield"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        安全存储
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-share"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多人共享
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        界面简洁
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-information"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        功能全面
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://cloud.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!-- NoOA Q&A -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Q&A</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-ban"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        自由提问
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-reply"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        回答专业
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-Infinite"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        不限流
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        功能简洁
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://qa.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/qa.png" alt="NoOA Q&A 问答社区平台截图" style="width:100%">
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- NoOA photo -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/photo.png" alt="NoOA Photo 图床平台截图" style="width:100%">
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Photo</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-image"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        图床
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-share"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多人共享
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-ban"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        自由上传
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        永久免费
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://photo.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!-- NoOA Learn -->
-    <!-- <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Learn</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-layers"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        课程跟踪
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-Infinite"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        无限数量
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-save"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        自由下载
-                      </h4>
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-information"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        内容丰富
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://learn.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/ser7.png" alt="" style="width:100%">
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- NoOA Grist -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Grist</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-layers"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多维数据
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-Infinite"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        无限数量
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-save"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        自由导出
-                      </h4>
-    
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-information"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多种形式
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://grist.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/grist.png" alt="NoOA Grist 多维表格平台截图" style="width:100%">
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- NoOA Survey -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-    
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/survey.png" alt="NoOA Survey 问卷系统平台截图" style="width:100%">
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Survey</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-save"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        结果导出
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-share"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多人共享
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-ban"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        匿名填写
-                      </h4>
-    
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        免费分析
-                      </h4>
-    
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://survey.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-      </div>
-    </div>
-
-    <!-- NoOA Gist -->
-    <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="text-wrapper">
-            <div>
-              <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">NoOA Gist</h2>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="features-icon">
-                      <i class="lni-share"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        多人共享
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
-                    <div class="features-icon">
-                      <i class="lni-Infinite"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        无限数量
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
-                    <div class="features-icon">
-                      <i class="lni-save"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        自由下载
-                      </h4>
-    
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="features-icon">
-                      <i class="lni-code"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4>
-                        代码片段
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="features-box wow fadeInLeft" data-wow-delay="1s">
-                    <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                      <br>
-                      <br>
-                      <a href="https://gist.nooa.tech" class="btn btn-common">立即注册/登录</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
-          <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
-            <img src="assets/img/slide/gist.png" alt="NoOA Gist 代码片段管理平台截图" style="width:100%">
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- Feature Section End -->
-
-  <!-- Team Section Start -->
-  <!-- <section id="team" class="section-padding text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-header text-center">
-              <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Team</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="team-item text-center">
-              <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-01.jpg" alt="">
-                <div class="team-overlay">
-                  <div class="overlay-social-icon text-center">
-                    <ul class="social-icons">
-                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="info-text">
-                <h3><a href="#">Rafael Basilla</a></h3>
-                <p>Front-end Developer, Dropbox</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="team-item text-center">
-              <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-02.jpg" alt="">
-                <div class="team-overlay">
-                  <div class="overlay-social-icon text-center">
-                    <ul class="social-icons">
-                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="info-text">
-                <h3><a href="#">Renee Fleck</a></h3>
-                <p>Product Designer, Tesla</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="team-item text-center">
-              <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-03.jpg" alt="">
-                <div class="team-overlay">
-                  <div class="overlay-social-icon text-center">
-                    <ul class="social-icons">
-                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="info-text">
-                <h3><a href="#">Paul Kowalsy</a></h3>
-                <p>Lead Designer, TNW</p>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section> -->
-  <!-- Team Section End -->
-
-  <!-- Clients Section Start -->
-  <!-- <div id="clients" class="section-padding">
-      <div class="container">
-        <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">As Seen On</h2>
-        </div>
-        <div class="row text-align-">
-          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="client-item-wrapper">
-              <img class="img-fluid" src="assets/img/clients/img1.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="client-item-wrapper">
-              <img class="img-fluid" src="assets/img/clients/img2.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.9s">
-            <div class="client-item-wrapper">
-              <img class="img-fluid" src="assets/img/clients/img3.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="1.2s">
-            <div class="client-item-wrapper">
-              <img class="img-fluid"  src="assets/img/clients/img4.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-  <!-- Clients Section End -->
-
-  <!-- Testimonial Section Start -->
-  <!-- <section id="testimonial" class="testimonial section-padding">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-            <div id="testimonials" class="owl-carousel wow fadeInUp" data-wow-delay="1.2s">
-              <div class="item">
-                <div class="testimonial-item">
-                  <div class="content">
-                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
-                  </div>
-                  <div class="img-thumb">
-                    <img src="assets/img/testimonial/img1.jpg" alt="">
-                  </div>
-                  <div class="info">
-                    <h2><a href="#">Grenchen Pearce</a></h2>
-                    <h3><a href="#">Boston Brothers co.</a></h3>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-item">
-                  <div class="content">
-                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
-                  </div>
-                  <div class="img-thumb">
-                    <img src="assets/img/testimonial/img2.jpg" alt="">
-                  </div>
-                  <div class="info">
-                    <h2><a href="#">Domeni GEsson</a></h2>
-                    <h3><a href="#">Awesome Technology co.</a></h3>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-item">
-                  <div class="content">
-                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
-                  </div>
-                  <div class="img-thumb">
-                    <img src="assets/img/testimonial/img3.jpg" alt="">
-                  </div>
-                  <div class="info">
-                    <h2><a href="#">Dommini Albert</a></h2>
-                    <h3><a href="#">Nesnal Design co.</a></h3>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-item">
-                  <div class="content">
-                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
-                  </div>
-                  <div class="img-thumb">
-                    <img src="assets/img/testimonial/img4.png" alt="">
-                  </div>
-                  <div class="info">
-                    <h2><a href="#">Fernanda Anaya</a></h2>
-                    <h3><a href="#">Developer</a></h3>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-item">
-                  <div class="content">
-                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
-                  </div>
-                  <div class="img-thumb">
-                    <img src="assets/img/testimonial/img5.png" alt="">
-                  </div>
-                  <div class="info">
-                    <h2><a href="#">Jason A.</a></h2>
-                    <h3><a href="#">Designer</a></h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-  <!-- Testimonial Section End -->
-
-  <!-- Pricing section Start -->
-  <!-- <section id="pricing" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="table wow fadeInLeft" data-wow-delay="1.2s">
-              <div class="title">
-                <h3>Basic</h3>
-              </div>
-              <div class="pricing-header">
-                <p class="price-value">$12.90<span>/ Month</span></p>
-              </div>
-              <ul class="description">
-                <li>Up to 5 projects </li>
-                <li>Up to 10 collabrators</li>
-                <li>2gb of storage</li>
-              </ul>
-              <button class="btn btn-common">Get It</button>
-            </div> 
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 active">
-            <div class="table wow fadeInUp" id="active-tb" data-wow-delay="1.2s">
-              <div class="title">
-                <h3>Profesional</h3>
-              </div>
-               <div class="pricing-header">
-                  <p class="price-value">$49.90<span>/ Month</span></p>
-               </div>
-              <ul class="description">   
-                <li>Up to 10 projects</li>
-                <li>Up to 20 collabrators</li>
-                <li>10gb of storage</li>
-                <li>Real-time collabration</li>
-              </ul>
-              <button class="btn btn-common">Get It</button>
-           </div> 
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="table wow fadeInRight" data-wow-delay="1.2s">
-              <div class="title">
-                <h3>Expert</h3>
-              </div>
-               <div class="pricing-header">
-                  <p class="price-value">$89.90<span>/ Month</span></p>
-               </div>
-              <ul class="description">
-                <li>unlimited projects </li>
-                <li>Unlimited collabrators</li>
-                <li>Unlimited of storage</li>
-                <li>Real-time collabration</li>
-                <li>24x7 Support</li>
-              </ul>
-              <button class="btn btn-common">Get It</button>
-            </div> 
-          </div>
-        </div>
-      </div>
-    </section> -->
-  <!-- Pricing Table Section End -->
-
-  <!-- Owl Slider Section Start -->
-  <!-- <section id="pages" class="sloder-img section-padding">
-    <div class="container">
-      <div class="section-header text-center">
-        <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s" style="color: #FFFFFF !important;">Feature Slides
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="slider-center slider">
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser8.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser1.png" alt="">
-            </div>
-            
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser2.png" alt="">
-            </div>
-            
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser3.png" alt="">
-            </div>
-            
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser4.png" alt="">
-            </div>
-            
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser5.png" alt="">
-            </div>
-            
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser6.png" alt="">
-            </div>
-            
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser7.png" alt="">
-            </div>
-            
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser9.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser10.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser11.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser12.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser13.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser14.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser15.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser16.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser17.png" alt="">
-            </div>
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser18.png" alt="">
-            </div>
-  
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser19.png" alt="">
-            </div>
-  
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser20.png" alt="">
-            </div>
-  
-            <div>
-              <img class="img-fluid" src="assets/img/slide/ser21.png" alt="">
-            </div>
-  
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Owl Slider Section End -->
-
-  <!-- Subscribe Section Start -->
-  <!-- <section id="Subscribes" class="subscribes section-padding">
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-md-10 col-lg-5">
-            <h4 class="wow fadeInUp" data-wow-delay="0.3s">Start For Free</h4>
-            <p class="wow fadeInUp" data-wow-delay="0.6s">Existing customized ideas through client-based deliverables. <br> Compellingly unleash fully tested outsourcing</p>
-            <form for="">
-              <div class="subscribe wow fadeInDown" data-wow-delay="0.3s">
-                <input type="Email" class="form-control" name="email" placeholder="Email Address">
-                <button class="btn-submit" type="submit"><i class="lni-arrow-right"></i></button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section> -->
-  <!-- Subscribe Section End -->
-
-  <!-- Contact Section Start -->
-  <!-- <section id="contact" class="section-padding">    
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-header text-center">
-              <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Contact</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
-          <div class="col-md-6 col-lg-6 col-sm-12">
-            <div class="contact-block">
-              <h2>Contact Form</h2>
-              <form id="contactForm">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
-                      <div class="help-block with-errors"></div>
-                    </div>                                 
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
-                      <div class="help-block with-errors"></div>
-                    </div> 
-                  </div>
-                   <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group"> 
-                      <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="submit-button">
-                      <button class="btn btn-common" id="form-submit" type="submit">Send Message</button>
-                      <div id="msgSubmit" class="h3 text-center hidden"></div> 
-                      <div class="clearfix"></div> 
-                    </div>
-                  </div>
-                </div>            
-              </form>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-sm-12">
-            <div class="contact-right-area wow fadeIn">
-              <h2>Get In Touch</h2>
-              <div class="contact-right">
-                <div class="single-contact">
-                  <div class="contact-icon">
-                    <i class="lni-map-marker"></i>
-                  </div>
-                  <p>Skopje, Macedonia</p>
-                </div>
-                <div class="single-contact">
-                  <div class="contact-icon">
-                    <i class="lni-envelope"></i>
-                  </div>
-                  <p><a href="#">email@gmail.com</a></p>
-                  <p><a href="#">tomsaulnier@gmail.com</a></p>
-                </div>
-                <div class="single-contact">
-                  <div class="contact-icon">
-                    <i class="lni-phone-handset"></i>
-                  </div>
-                  <p><a href="#">+42 374 5967</a></p>
-                  <p><a href="#">+99 123 5967</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-    </section> -->
-  <!-- Contact Section End -->
-
-  <!-- Map Section Start -->
-  <!-- <div class="map">
-      <div class="container-fulid">
-        <div id="conatiner-map"></div> 
-      </div>
-    </div> -->
-  <!-- Map Section End -->
-
-  <!-- Footer Section Start -->
-  <footer id="footer" class="footer-area section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-          <div class="footer-logo mb-3">
-            <img src="assets/img/logo.png" style="height: 100px;" alt="NoOA Tech Logo">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
-          <h3 class="footer-titel">Helpful</h3>
+        <div class="reveal">
+          <h4>Helpful</h4>
           <ul>
             <li><a href="https://ref.nooa.tech">NoOA Reference</a></li>
             <li><a href="https://waterfall.nooa.tech">DockerHub Search</a></li>
             <li><a href="https://github.nooa.tech">GitHub Proxy</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-          <h3 class="footer-titel">Information</h3>
+        <div class="reveal">
+          <h4>Information</h4>
           <ul>
             <li><a href="https://mkuang.nooa.tech">Author's Homepage</a></li>
             <li><a href="https://blog.nooa.tech">Author's Blog</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
-          <h3 class="footer-titel">Find Us</h3>
-          <div class="social-icon">
-            <a class="Google" href="https://www.google.com.hk/search?q=NoOA Tech" title="Google"><i class="lni-google-plus"></i></a>
-            <a class="GitHub" href="https://github.com/nooatech" title="GitHub"><i class="lni-github"></i></a>
-            <a class="Calendar" href="https://mkuang.nooa.tech/calendar" title="Calendar"><i class="lni-calendar"></i></a>
-            <a class="Email" href="mailto:admin@nooa.tech" title="Email"><i class="lni-envelope"></i></a>
+        <div class="reveal">
+          <h4>Find Us</h4>
+          <div class="social">
+            <a href="https://www.google.com.hk/search?q=NoOA Tech" title="Google" aria-label="Google">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </a>
+            <a href="https://github.com/nooatech" title="GitHub" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="https://mkuang.nooa.tech/calendar" title="Calendar" aria-label="Calendar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </a>
+            <a href="mailto:admin@nooa.tech" title="Email" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
           </div>
         </div>
       </div>
+      <div class="copyright">Copyright © 2026 NoOA Tech All Right Reserved</div>
     </div>
   </footer>
-  <!-- Footer Section End -->
 
-  <section id="copyright">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p>Copyright © 2026 NoOA Tech All Right Reserved</p>
+  <button class="to-top" id="toTop" aria-label="返回顶部">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <script>
+    /* ---------- icon library (inline SVG paths) ---------- */
+    const ICONS = {
+      code: '<polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>',
+      tex: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>',
+      db: '<ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>',
+      cloud: '<path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>',
+      qa: '<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>',
+      image: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>',
+      doc: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>',
+      chart: '<line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/>',
+      grid: '<rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/>'
+    };
+    const svg = (k) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${ICONS[k]}</svg>`;
+
+    /* ---------- data: Main Services (10) ---------- */
+    const SERVICES = [
+      { icon: 'code',  name: '代码管理', url: 'https://git.nooa.tech',    desc: '基于Gitea二次开发的NoOA Git平台，实现代码管理、代码复刻等服务，同时作为所有其他服务的账户鉴权中心。' },
+      { icon: 'tex',   name: '论文编写', url: 'https://tex.nooa.tech',    desc: '基于ShareLatex开发的类OverLeaf在线LaTeX编写平台，支持不限量多人协作，多人分享编写等服务。' },
+      { icon: 'db',    name: '知识储备', url: 'https://wiki.nooa.tech',   desc: '基于Confluence的NoOA Wiki平台提供文件管理、笔记管理、空间管理等服务，是整个系统的知识核心。' },
+      { icon: 'cloud', name: '云盘',     url: 'https://cloud.nooa.tech',  desc: '为了方便文件传输与保存，NoOA Cloud提供云盘服务，文件不怕丢失、不怕和谐，同时提供多种类型的分享（限时分享、限次分享等）服务。' },
+      { icon: 'qa',    name: '问答平台', url: 'https://qa.nooa.tech',     desc: '不管是技术问题还是其他问题，都可以在NoOA Q&A寻求答案，该平台可以自由提问与回答。' },
+      { icon: 'image', name: '图床',     url: 'https://photo.nooa.tech',  desc: 'NoOA Photo提供在线图片部署服务，解决在其他在线平台上创作时的图片上传问题。' },
+      { icon: 'doc',   name: '文档',     url: 'https://docs.nooa.tech',   desc: '基于Outline的NoOA Docs文档编写系统，拥有和飞书文档一样美观的界面以及异步评论功能，旨在提供私人以及共享文档的空间。' },
+      { icon: 'chart', name: '问卷',     url: 'https://survey.nooa.tech', desc: '基于Formbricks的NoOA Survey问卷系统，以一种出色的逐题展开的形式，带来不一样的问卷体验。' },
+      { icon: 'grid',  name: '多维表格', url: 'https://grist.nooa.tech',  desc: 'NoOA Grist多维表格系统，不仅拥有普通 Excel表格应有的功能，而且更强调专业性和协同性。' },
+      { icon: 'code',  name: '代码片段', url: 'https://gist.nooa.tech',   desc: 'NoOA Gist代码片段管理系统，简洁的、GitHub Gist的开源替代。' }
+    ];
+
+    /* ---------- data: Main Features (10, ordered as legacy) ---------- */
+    const FEATURES = [
+      { name: 'NoOA Docs',  img: 'docs.png',   url: 'https://docs.nooa.tech',   alt: 'NoOA Docs 在线文档编写平台截图',   desc: '现代化的团队文档协作平台，拥有媲美主流办公套件的精致界面与顺滑编辑体验。支持实时多人协作、文档层级嵌套整理与异步评论，让公开与私密的内容都能优雅沉淀。', tags: ['实时协作', '异步评论', '层级整理', '全文检索'] },
+      { name: 'NoOA Git',   img: 'git.png',    url: 'https://git.nooa.tech',    alt: 'NoOA Git 代码管理平台截图',         desc: '轻量高效的自托管代码管理平台，提供仓库托管、分支与复刻、合并请求等完整研发流程。同时它还是整个系统的统一账户与鉴权中心，一处登录、处处通行。', tags: ['仓库托管', '统一登录', '合并请求', '操作简单'] },
+      { name: 'NoOA Tex',   img: 'tex.png',    url: 'https://tex.nooa.tech',    alt: 'NoOA Tex 在线LaTeX论文编写平台截图', desc: '浏览器内的在线 LaTeX 写作平台，编辑即时编译、实时预览排版效果。支持不限数量的项目与多人协同写作，论文、报告、简历都能一键成稿并随时分享。', tags: ['在线编译', '多人协作', '不限项目', '功能简洁'] },
+      { name: 'NoOA Wiki',  img: 'wiki.png',   url: 'https://wiki.nooa.tech',   alt: 'NoOA Wiki 知识管理平台截图',        desc: '面向团队的知识库与文档协作中心，以空间与页面的层级方式组织海量资料。配合强大的富文本编辑与精细权限管理，是沉淀团队智慧、构建知识体系的核心枢纽。', tags: ['空间管理', '多人共享', '无限空间', '功能全面'] },
+      { name: 'NoOA Cloud', img: 'cloud.png',  url: 'https://cloud.nooa.tech',  alt: 'NoOA Cloud 云盘平台截图',           desc: '安全可靠的私有云盘服务，文件多重备份、不丢失不和谐。支持限时、限次等多种灵活分享方式，让你随时随地存取、传输与共享重要资料。', tags: ['安全存储', '灵活分享', '多端访问', '界面简洁'] },
+      { name: 'NoOA Q&A',   img: 'qa.png',     url: 'https://qa.nooa.tech',     alt: 'NoOA Q&A 问答社区平台截图',         desc: '简洁高效的问答社区，无论技术难题还是日常疑惑都能自由提问与解答。借助标签分类、投票排序与最佳答案机制，让有价值的知识沉淀下来、被更多人看见。', tags: ['自由问答', '标签分类', '投票采纳', '不限流量'] },
+      { name: 'NoOA Photo', img: 'photo.png',  url: 'https://photo.nooa.tech',  alt: 'NoOA Photo 图床平台截图',           desc: '专业的在线图床服务，一键上传即得稳定直链，彻底解决在各类在线平台创作时的配图难题。支持多种图片格式与相册归类管理，托管省心又可靠。', tags: ['一键直链', '相册管理', '多格式', '批量上传'] },
+      { name: 'NoOA Grist', img: 'grist.png',  url: 'https://grist.nooa.tech',  alt: 'NoOA Grist 多维表格平台截图',       desc: '兼具表格与数据库能力的多维表格系统，不仅拥有常规电子表格的全部功能，更强调公式联动、多视图呈现与团队协同，让结构化数据真正流动并产生价值。', tags: ['多维数据', '公式联动', '多视图', '自由导出'] },
+      { name: 'NoOA Survey',img: 'survey.png', url: 'https://survey.nooa.tech', alt: 'NoOA Survey 问卷系统平台截图',      desc: '体验出色的问卷与表单系统，以逐题展开的交互方式带来沉浸式的填写体验。支持匿名作答、实时结果统计与免费数据分析，轻松收集并洞察每一份反馈。', tags: ['逐题展开', '匿名填写', '结果导出', '实时统计'] },
+      { name: 'NoOA Gist',  img: 'gist.png',   url: 'https://gist.nooa.tech',   alt: 'NoOA Gist 代码片段管理平台截图',    desc: '简洁优雅的代码片段管理工具，是经典代码片段托管服务的开源替代。支持语法高亮、版本记录与公开/私密分享，随手记录与复用每一段灵感代码。', tags: ['语法高亮', '版本记录', '自由分享', '无限数量'] }
+    ];
+
+    const tickSvg = '<span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>';
+    const arrSvg = '<svg class="arr" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>';
+
+    /* ---------- render services ---------- */
+    document.getElementById('servicesGrid').innerHTML = SERVICES.map(s => `
+      <a class="card reveal" href="${s.url}">
+        <div class="ico">${svg(s.icon)}</div>
+        <h3>${s.name} ${arrSvg}</h3>
+        <p>${s.desc}</p>
+      </a>`).join('');
+
+    /* ---------- render features ---------- */
+    document.getElementById('featureList').innerHTML = FEATURES.map((f, i) => `
+      <div class="feature-row ${i % 2 ? 'reverse' : ''}">
+        <div class="f-media reveal">
+          <img src="assets/img/slide/${f.img}" alt="${f.alt}" loading="lazy" decoding="async">
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="f-text reveal">
+          <h3 class="f-name">${f.name}</h3>
+          <p class="f-desc">${f.desc}</p>
+          <div class="chips">
+            ${f.tags.map(t => `<span class="chip">${tickSvg}${t}</span>`).join('')}
+          </div>
+          <a class="btn btn-primary" href="${f.url}">立即注册 / 登录
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>`).join('');
 
-  <!-- Go to Top Link -->
-  <a href="#" class="back-to-top">
-    <i class="lni-arrow-up"></i>
-  </a>
+    /* ---------- theme toggle ---------- */
+    (function () {
+      const root = document.documentElement;
+      const saved = localStorage.getItem('nooa-theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      root.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+      document.getElementById('themeBtn').addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('nooa-theme', next);
+      });
+    })();
 
-  <!-- Preloader -->
-  <div id="preloader">
-    <div class="loader" id="loader-1"></div>
-  </div>
-  <!-- End Preloader -->
+    /* ---------- mobile menu ---------- */
+    const navLinks = document.getElementById('navLinks');
+    document.getElementById('navToggle').addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.addEventListener('click', e => { if (e.target.tagName === 'A') navLinks.classList.remove('open'); });
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="assets/js/jquery-min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/slick.min.js"></script>
-  <script src="assets/js/wow.js"></script>
-  <script src="assets/js/jquery.nav.js"></script>
-  <script src="assets/js/scrolling-nav.js"></script>
-  <script src="assets/js/jquery.easing.min.js"></script>
-  <script src="assets/js/jquery.slicknav.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/form-validator.min.js"></script>
-  <script src="assets/js/contact-form-script.min.js"></script>
-  <script src="assets/js/map.js"></script>
-  <script type="text/javascript"
-    src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+    /* ---------- reveal on scroll ---------- */
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
+    /* ---------- back to top ---------- */
+    const toTop = document.getElementById('toTop');
+    window.addEventListener('scroll', () => toTop.classList.toggle('show', window.scrollY > 600), { passive: true });
+    toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    /* ---------- hero rotating keyword (每个词独立个性) ---------- */
+    (function () {
+      const el = document.getElementById('rotator');
+      if (!el) return;
+      const SERIF = '"Songti SC", "SimSun", "STSong", serif';
+      const KAI   = '"Kaiti SC", "KaiTi", "STKaiti", cursive';
+      const YUAN  = '"Yuanti SC", "YouYuan", "PingFang SC", sans-serif';
+      const SANS  = '"PingFang SC", "Microsoft YaHei", sans-serif';
+      const MONO  = 'ui-monospace, Menlo, Consolas, "Courier New", monospace';
+      const words = [
+        { t: '代码管理', grad: 'linear-gradient(135deg,#0ea5e9,#22d3ee)', font: MONO,  weight: 800, italic: false },
+        { t: '文档编写', grad: 'linear-gradient(135deg,#6366f1,#8b5cf6)', font: SERIF, weight: 900, italic: false },
+        { t: '论文编写', grad: 'linear-gradient(135deg,#7c3aed,#d946ef)', font: KAI,   weight: 700, italic: false },
+        { t: '知识管理', grad: 'linear-gradient(135deg,#f59e0b,#f97316)', font: SANS,  weight: 900, italic: false },
+        { t: '云盘存储', grad: 'linear-gradient(135deg,#0284c7,#38bdf8)', font: YUAN,  weight: 800, italic: false },
+        { t: '问答社区', grad: 'linear-gradient(135deg,#ec4899,#f43f5e)', font: KAI,   weight: 700, italic: true  },
+        { t: '图床托管', grad: 'linear-gradient(135deg,#10b981,#34d399)', font: SANS,  weight: 900, italic: false },
+        { t: '多维表格', grad: 'linear-gradient(135deg,#14b8a6,#06b6d4)', font: MONO,  weight: 800, italic: false },
+        { t: '问卷调研', grad: 'linear-gradient(135deg,#f43f5e,#fb923c)', font: SERIF, weight: 900, italic: false },
+        { t: '代码片段', grad: 'linear-gradient(135deg,#22c55e,#84cc16)', font: MONO,  weight: 800, italic: false }
+      ];
+      const apply = (w) => {
+        el.textContent = w.t;
+        el.style.setProperty('--rgrad', w.grad);
+        el.style.fontFamily = w.font;
+        el.style.fontWeight = w.weight;
+        el.style.fontStyle = w.italic ? 'italic' : 'normal';
+      };
+      let i = 0;
+      apply(words[0]);
+      setInterval(() => {
+        el.classList.add('swap');
+        setTimeout(() => {
+          i = (i + 1) % words.length;
+          apply(words[i]);
+          el.classList.remove('swap');
+        }, 350);
+      }, 2000);
+    })();
+  </script>
 </body>
 
 </html>

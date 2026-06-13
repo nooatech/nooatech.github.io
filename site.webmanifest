@@ -1,0 +1,28 @@
+{
+  "name": "NoOA Tech · 一站式在线办公平台",
+  "short_name": "NoOA Tech",
+  "description": "NoOA Tech（Not just an OA）提供代码管理、论文编写、知识库、云盘、问答社区、图床、在线文档、多维表格、问卷系统和代码片段管理等一站式在线办公平台服务，免费、开源，为个人与团队打造。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f8fc",
+  "theme_color": "#137ED9",
+  "categories": ["productivity", "business", "utilities"],
+  "icons": [
+    {
+      "src": "/assets/img/logo.png",
+      "sizes": "882x882",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/logo.png",
+      "sizes": "882x882",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
